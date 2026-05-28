@@ -8,6 +8,12 @@
 
 - [`draw-io-ai/`](./draw-io-ai)
 
+## Quick Start
+
+安装入口：
+
+- `quick start:install [Dapeng960208/draw-io-ai](https://github.com/Dapeng960208/draw-io-ai)`
+
 ## 安装
 
 先克隆仓库：
@@ -34,6 +40,17 @@ Copy-Item -Path ".\draw-io-ai" -Destination "$env:USERPROFILE\.codex\skills\draw
 ```
 
 复制完成后重启 Codex。
+
+当 `drawio` MCP 工具可用时，这个 skill 的默认策略是优先调用 `start_session`，而不是手动打开通用的 draw.io 网页地址。
+
+## Quick Prompts
+
+下面这些提示词适合做 smoke test 或首次演示。
+
+- `Check whether the drawio MCP is available and open the live preview in the right-side browser pane.`
+- `Create a user login flowchart that includes login, MFA, and session management.`
+- `Create a React + AWS authentication architecture diagram and export both drawio and png files.`
+- `Read the current diagram and convert all connectors into animated flow lines.`
 
 ## MCP
 

@@ -16,6 +16,8 @@ Prefer the MCP workflow over manual XML-only workflows when the client can expos
 - In Codex or another client that supports an embedded review/browser pane, call `start_session` yourself as soon as the MCP tools are available so the diagram page opens on the right side and the user can immediately see live updates.
 - Do not wait for the user to open the URL manually unless `start_session` is unavailable.
 - If the client does not have an embedded pane, open the returned browser URL in the normal browser flow.
+- Do not rely on typing a generic draw.io or diagrams.net URL into the browser pane when the `drawio` MCP tools are available.
+- Prefer the session URL returned by `start_session`, because it includes the MCP session context needed for the live preview to work correctly.
 
 ## Fast Path
 
@@ -75,6 +77,7 @@ npx -y @next-ai-drawio/mcp-server@latest --help
 
 - Always call `start_session` before diagram creation when a visible live preview is helpful.
 - If the user wants to see changes live, this is mandatory.
+- When `drawio` MCP is available, prefer `start_session` over manually opening `draw.io` or `diagrams.net` in a generic browser tab.
 
 ### Delivery Standard
 

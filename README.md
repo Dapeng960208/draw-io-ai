@@ -8,6 +8,12 @@ The actual skill is in:
 
 - [`draw-io-ai/`](./draw-io-ai)
 
+## Quick Start
+
+Install with:
+
+- `quick start:install [Dapeng960208/draw-io-ai](https://github.com/Dapeng960208/draw-io-ai)`
+
 ## Install
 
 Clone this repository:
@@ -34,6 +40,17 @@ Copy-Item -Path ".\draw-io-ai" -Destination "$env:USERPROFILE\.codex\skills\draw
 ```
 
 Restart Codex after copying the skill.
+
+When the `drawio` MCP tools are available, this skill is designed to make the agent call `start_session` first instead of manually opening a generic draw.io URL.
+
+## Quick Prompts
+
+Use these prompts for smoke tests or first-run demos.
+
+- `Check whether the drawio MCP is available and open the live preview in the right-side browser pane.`
+- `Create a user login flowchart that includes login, MFA, and session management.`
+- `Create a React + AWS authentication architecture diagram and export both drawio and png files.`
+- `Read the current diagram and convert all connectors into animated flow lines.`
 
 ## MCP
 
