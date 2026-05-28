@@ -10,9 +10,12 @@
 
 ## Quick Start
 
-安装入口：
+如果是让 AI 自动安装，可以直接在终端输入：
 
-- `quick start:install [Dapeng960208/draw-io-ai](https://github.com/Dapeng960208/draw-io-ai)`
+```text
+:install https://github.com/Dapeng960208/draw-io-ai.git and create a user login flowchart that includes login, MFA, and session management.
+```
+
 
 ## 安装
 

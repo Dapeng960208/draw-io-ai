@@ -10,9 +10,12 @@ The actual skill is in:
 
 ## Quick Start
 
-Install with:
+For AI-assisted installation, enter this in the terminal:
 
-- `quick start:install [Dapeng960208/draw-io-ai](https://github.com/Dapeng960208/draw-io-ai)`
+```text
+:install https://github.com/Dapeng960208/draw-io-ai.git and create a user login flowchart that includes login, MFA, and session management.
+```
+
 
 ## Install
 
