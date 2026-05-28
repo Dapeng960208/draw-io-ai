@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+
+# Local env
+.env
+.env.*
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.tar
+*.gz
