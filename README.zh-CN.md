@@ -2,22 +2,22 @@
 
 # Draw.io.ai
 
-Public Codex skill for setting up a draw.io MCP workflow, automatically opening the live preview in the browser pane, and delivering high-quality `.drawio` + `png` diagram outputs.
+这是一个公共 Codex skill 仓库，核心能力是帮助 AI 快速搭建 draw.io MCP 工作流、自动在浏览区打开实时预览页面，并交付高质量的 `.drawio` + `png` 图文件。
 
-The actual skill is in:
+实际 skill 内容位于：
 
 - [`draw-io-ai/`](./draw-io-ai)
 
-## Install
+## 安装
 
-Clone this repository:
+先克隆仓库：
 
 ```bash
 git clone https://github.com/Dapeng960208/draw-io-ai.git
 cd draw-io-ai
 ```
 
-Copy the inner `draw-io-ai/` skill folder into your local Codex skills directory.
+然后把仓库里的 `draw-io-ai/` 子目录复制到本地 Codex 的 skills 目录。
 
 ### Linux / macOS
 
@@ -33,21 +33,21 @@ New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
 Copy-Item -Path ".\draw-io-ai" -Destination "$env:USERPROFILE\.codex\skills\draw-io-ai" -Recurse -Force
 ```
 
-Restart Codex after copying the skill.
+复制完成后重启 Codex。
 
 ## MCP
 
-This skill is designed for:
+这个 skill 主要面向以下客户端：
 
 - Codex
 - Claude Desktop
 - Cursor
 - VS Code
 
-and other MCP-capable clients using:
+以及其他支持 MCP 的客户端，配套服务为：
 
 - [`@next-ai-drawio/mcp-server`](https://www.npmjs.com/package/@next-ai-drawio/mcp-server)
 
-## License
+## 许可证
 
 [MIT](./LICENSE)
